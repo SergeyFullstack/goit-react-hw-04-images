@@ -39,7 +39,7 @@ export function App() {
     }
 
     getGallery();
-  }, [page, searchName, setDataImages]);
+  }, [page, searchName,]);
 
   const onSubmitSearch = (searchName) => {
     setSearchName(searchName);
